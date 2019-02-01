@@ -87,6 +87,7 @@ li a {
   
 .title:hover {
     border-bottom: 4px solid darkorange;
+    font-weight: bold;
 }
   
 ul li ul {

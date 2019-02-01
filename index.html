@@ -1,53 +1,125 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang='en'>
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <meta http-equiv='X-UA-Compatible' content='ie=edge'>
     <!-- CSS Style Sheet -->
-    <link rel="stylesheet" href="styles.css">
+    <link rel='stylesheet' href='styles.css'>
+    <!-- GOOGLE FONTS -->
+    <link href='https://fonts.googleapis.com/css?family=Rubik' rel='stylesheet'>
 
     <title>HTML&CSS Only</title>
 </head>
 
 <body>
     <!-- BANNER START -->
-    <div class="banner">
-        <h6 class='callUsNow'>CALL US NOW!<span class='phoneNumber'>385.154.11.28.35</span></h6>
-        <div class="nav">
+    <div class='banner'>
+        <h6 class='callUsNow'>CALL US NOW!&nbsp;
+            <span class='phoneNumber'>385.154.11.28.35</span>
+        </h6>
+        <div class='nav'>
             <a class='login'>LOGIN</a>
             <a class='signup'>SIGNUP</a>
         </div>
     </div>
     <!-- BANNER END -->
     <!-- NAVBAR START -->
-    <div class="navbar">
+    <div class='navbar'>
         <h1 class='your'>YOUR<span class='logo'>LOGO</span></h1>
-        <div class="nav">
-            <a href='' class='title title1'>Title 1</a>
-            <a href='' class='title title2'>Title 2</a>
-            <a href='' class='title title3'>Title 3</a>
-            <a href='' class='title title4'>Title 4</a>
-            <a href='' class='title title5'>Title 5</a>
-            <a href='' class='title title6'>Title 6</a>
-            <a href='' class='title title7'>Title 7</a>
-        </div>
+        <nav class='navTitle'>
+            <ul>
+                <li>
+                    <a class='title' href='#'>TITLE1</a>
+                    <ul class='dropdown '>
+                        <li><a href='#'>SUBMENU 1</a></li>
+                        <li><a href='#'>SUBMENU 2</a></li>
+                        <li><a href='#'>SUBMENU 3</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a class='title' href='#'>TITLE2</a>
+                    <ul class='dropdown'>
+                        <li><a href='#'>SUBMENU 1</a></li>
+                        <li><a href='#'>SUBMENU 2</a></li>
+                        <li><a href='#'>SUBMENU 3</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a class='title' href='#'>TITLE3</a>
+                    <ul class='dropdown'>
+                        <li><a href='#'>SUBMENU 1</a></li>
+                        <li><a href='#'>SUBMENU 2</a></li>
+                        <li><a href='#'>SUBMENU 3</a></li>
+                    </ul>
+                </li>
+                </li>
+                <li>
+                    <a class='title' href='#'>TITLE4</a>
+                    <ul class='dropdown'>
+                        <li><a href='#'>SUBMENU 1</a></li>
+                        <li><a href='#'>SUBMENU 2</a></li>
+                        <li><a href='#'>SUBMENU 3</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a class='title' href='#'>TITLE5</a>
+                    <ul class='dropdown'>
+                        <li><a href='#'>SUBMENU 1</a></li>
+                        <li><a href='#'>SUBMENU 2</a></li>
+                        <li><a href='#'>SUBMENU 3</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a class='title' href='#'>TITLE6</a>
+                    <ul class='dropdown'>
+                        <li><a href='#'>SUBMENU 1</a></li>
+                        <li><a href='#'>SUBMENU 2</a></li>
+                        <li><a href='#'>SUBMENU 3</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a class='title title7' href='#'>TITLE7</a>
+                    <ul class='dropdown'>
+                        <li><a href='#'>SUBMENU 1</a></li>
+                        <li><a href='#'>SUBMENU 2</a></li>
+                        <li><a href='#'>SUBMENU 3</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
     </div>
     <!-- NAVBAR END -->
-    <nav role="navigation">
-        <ul>
-            <li><a href="#">One</a></li>
-            <li><a href="#">Two</a>
-                <ul class="dropdown">
-                    <li><a href="#">Sub-1</a></li>
-                    <li><a href="#">Sub-2</a></li>
-                    <li><a href="#">Sub-3</a></li>
-                </ul>
-            </li>
-            <li><a href="#">Three</a></li>
-        </ul>
-    </nav>
+    <!-- BREADCRUMB START -->
+    <div class='breadcrumb'>
+        Home / Who we are / <strong>Contact</strong>
+    </div>
+    <!-- BREADCRUMB END -->
+    <!-- CONTACT START -->
+    <div class='contact'>
+        <h1>Contact</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae dignissimos cum ipsum voluptas ullam,
+            incidunt sed. Officia laboriosam placeat esse ipsum, distinctio reiciendis consectetur illo deserunt cum
+            quidem deleniti suscipit?</p>
+    </div>
+    <!-- CONTACT END -->
+    <!-- CONTACT US START -->
+    <div class='contactUs'>
+        <div class='contactUsTitle'>CONTACT US</div>
+        <form>
+            <input class='formName' type='text' placeholder='NAME *'>
+            <br>
+            <input class='formPhone' type='text' placeholder='PHONE *'>
+            <input class='formEmail' type='text' placeholder='EMAIL *'>
+            <br>
+            <textarea class='formMessage' type='text' placeholder='MESSAGE *'></textarea>
+            <br><br>
+            <button class='submitButton' type='submit' value='Submit'>Submit</button>
+        </form>
+    </div>
+    <!-- CONTACT US END -->
+
 </body>
 
 </html>

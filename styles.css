@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    font-family: 'Rubik', sans-serif;
 }
 
 .banner {
@@ -8,6 +9,8 @@ body {
     justify-content: space-between;
     align-items: center;
     background-color: orange;
+    height: 5vh;
+    font-size: 1.5em;
 }
 
 .callUsNow {
@@ -45,77 +48,110 @@ body {
 }
 
 .title {
-    text-decoration: none;
-    padding-bottom: 5px;
-    margin-right: 1vw;
+    padding: 0.25em;
+    font-size: 0.75em;
 }
 
-.title7 {
+.navTitle {
     margin-right: 15vw;
 }
 
-.title:hover {
-    border-bottom: 4px solid darkorange;
-}
-
-
-
-
-
-
-
-
-
-  
-  
-  ul {
-    background: darkorange;
+ul {
     list-style: none;
     margin: 0;
     padding-left: 0;
-  }
+}
   
-  li {
+li {
     color: #fff;
-    background: darkorange;
     display: block;
     float: left;
     padding: 1rem;
     position: relative;
     text-decoration: none;
     transition-duration: 0.5s;
-  }
+}
     
-  li a {
-    color: #fff;
+li a {
+    color: black;
     text-decoration: none;
-  }
+}
   
-  li:hover {
-    background: red;
-    cursor: pointer;
-  }
+.title:hover {
+    border-bottom: 4px solid darkorange;
+}
   
-  ul li ul {
-    background: orange;
+ul li ul {
+    border: 1px solid black;
+    background: white;
     visibility: hidden;
-    opacity: 0;
-    min-width: 5rem;
     position: absolute;
     transition: all 0.5s ease;
     margin-top: 1rem;
-    left: 0;
     display: none;
-  }
+    z-index: 100;
+}
   
-  ul li:hover > ul,
-  ul li ul:hover {
+ul li:hover > ul,
+ul li ul:hover {
     visibility: visible;
     opacity: 1;
     display: block;
-  }
+}
   
-  ul li ul li {
-      clear: both;
+ul li ul li {
     width: 100%;
-  }
+}
+
+.breadcrumb {
+    padding: 7vh 0 5vh 15vw;
+    color: #7a7a7a;
+}
+
+.contact {
+    padding: 0 0 5vh 15vw;
+    color: darkorange;
+}
+
+.contact p {
+    color: #7a7a7a;
+    padding: 0 15vw 5vh 0;
+}
+
+.contactUsTitle {
+    color: darkorange;
+    margin: 0 0 0 15vw;
+    width: 25vw;
+    border-bottom: 3px solid darkgray;
+    font-size: 1.5em;
+}
+
+form {
+    margin: 2vh 0 0 15vw;
+}
+
+input,
+textarea {
+    margin: 0.25em;
+}
+
+.formName {
+    width: 24.7vw;
+}
+
+.formPhone,
+.formEmail {
+    width: 12vw;
+}
+
+.formMessage {
+    width: 24.7vw;
+    height: 10vh;
+}
+
+.submitButton {
+    color: white;
+    background: darkorange;
+    border: none;
+    padding: 10px 20px 10px 20px;
+}

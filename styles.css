@@ -135,26 +135,26 @@ ul li ul li {
 }
 
 form {
-    margin: 0 0 0 15vw;
-}
-
-input,
-textarea {
-    margin: 0.25em;
+    margin-left: 15vw;
 }
 
 .formName {
-    width: 29.6vw;
+    width: 30vw;
+    height: 3vh;
+    margin-bottom: 0.5em
 }
 
 .formPhone,
 .formEmail {
-    width: 14.45vw;
+    width: 14.8vw;
+    height: 3vh;
+    margin-bottom: 0.5em
 }
 
 .formMessage {
-    width: 29.6vw;
+    width: 30vw;
     height: 15vh;
+    font-family: 'Rubik', sans-serif;
 }
 
 .submitButton {
